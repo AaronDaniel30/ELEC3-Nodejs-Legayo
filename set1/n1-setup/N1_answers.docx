@@ -1,0 +1,19 @@
+# N1 – Project Setup and Package Management
+
+**Name:** Aaron Daniel A. Legayo  
+**Section:** BSIT IV-C  
+**Course:** ELEC 3 – Node.js
+
+## 1. Purpose of package.json fields
+
+- **name** – Identifies the project.
+- **version** – Indicates the current version of the project.
+- **description** – Provides a short explanation of the project.
+- **main** – Specifies the main entry file of the project.
+- **scripts** – Contains commands that can be executed using npm.
+- **dependencies** – Lists packages required for the application to run.
+- **devDependencies** – Lists packages used during development.
+
+## 2. What is the node_modules folder, and why is it not included when sharing a project?
+
+The `node_modules` folder contains the packages and libraries installed in a Node.js project. It is not included when sharing a project because it can be very large and can be recreated using `npm install` based on the project's `package.json` and package-lock.json files.
