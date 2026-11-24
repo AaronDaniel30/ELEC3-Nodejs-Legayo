@@ -166,3 +166,58 @@ http://localhost:8001
 ![N5 Delete Student](set2/n5-api/screenshots/delete-student.png)
 
 ![N5 Updated Students List](set2/n5-api/screenshots/updated-students-list.png)
+
+
+## N6 – Middleware and API Testing
+
+**Description:** Implemented custom logger and JSON middleware using Node.js. Tested all five REST API operations (GET, GET by ID, POST, PUT, and DELETE) using Postman.
+
+**Folder:** [set2/n6-middleware](set2/n6-middleware/)
+
+### How to Run
+
+```bash
+node set2/n6-middleware/index.js
+```
+
+Server URL: `http://localhost:8002`
+
+### API Endpoints
+
+| Method | Endpoint | Description |
+|---|---|---|
+| GET | `/api/students` | Get all students |
+| GET | `/api/students/:id` | Get a student by ID |
+| POST | `/api/students` | Add a new student |
+| PUT | `/api/students/:id` | Update a student |
+| DELETE | `/api/students/:id` | Delete a student |
+
+### Screenshots
+
+**1. GET – All Students**
+
+![GET All Students](set2/n6-middleware/screenshots/get-all-students.png)
+
+**2. GET – Student by ID**
+
+![GET Student by ID](set2/n6-middleware/screenshots/get-student-by-id.png)
+
+**3. POST – Add Student**
+
+![POST Add Student](set2/n6-middleware/screenshots/post-add-student.png)
+
+**4. PUT – Update Student**
+
+![PUT Update Student](set2/n6-middleware/screenshots/put-update-student.png)
+
+**5. DELETE – Remove Student**
+
+![DELETE Student](set2/n6-middleware/screenshots/delete-student.png)
+
+**6. Middleware Logger Output**
+
+![Middleware Logs](set2/n6-middleware/screenshots/middleware-logs.png)
+
+### N6 Answers
+
+[View N6 Answers](set2/n6-middleware/N6-answers.docx)
