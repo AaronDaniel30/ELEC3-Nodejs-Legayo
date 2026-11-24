@@ -1,0 +1,3 @@
+# N6 – Middleware and API Testing
+
+Middleware is a function that runs between receiving an HTTP request and processing it through the route handler. It helps perform tasks before the server sends a response. In this activity, I created two custom middleware functions using Node.js. The first is the logger middleware, which records the HTTP method, URL, and date and time of every incoming request. The second is the JSON middleware, which automatically sets the Content-Type header to application/json for API responses. Both middleware functions use `next()` to allow the request to continue to the next middleware or route handler. Middleware makes the code more organized and avoids repeating the same tasks in every route.
