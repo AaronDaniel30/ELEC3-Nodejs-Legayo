@@ -13,6 +13,7 @@
 | N3 – File Manager | A command-line program for creating, reading, updating, deleting, and listing text files. | [N3 Folder](set1/n3-file-manager/) |
 | N4 – Basic HTTP Server | A basic HTTP server with page routing and 404 error handling. | [N4 Folder](set2/n4-server/) |
 | N5 – REST-style API | A REST-style student API that supports CRUD operations using an array for storage. | [N5 Folder](set2/n5-api/) |
+| N6 – Middleware and API Testing | Custom logger and JSON middleware with API testing using Postman. | [N6 Folder](set2/n6-middleware/) |
 
 ## Activity Details
 
@@ -168,7 +169,7 @@ http://localhost:8001
 ![N5 Updated Students List](set2/n5-api/screenshots/updated-students-list.png)
 
 
-## N6 – Middleware and API Testing
+### N6 – Middleware and API Testing
 
 **Description:** Implemented custom logger and JSON middleware using Node.js. Tested all five REST API operations (GET, GET by ID, POST, PUT, and DELETE) using Postman.
 
